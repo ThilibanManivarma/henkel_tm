@@ -1,0 +1,37 @@
+<section id="anatomy" style="background:#ffffff;color:#000000;font-family:Arial, Helvetica, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:30px">
+<p style="font-size:26px;font-weight:700">How a design is built</p>
+<h2 style="font-size:50px;font-weight:700;line-height:1.15;width:1540px">Three block types, and one rule about where acid is allowed</h2>
+<svg viewBox="0 0 1664 356" width="1664" height="356" role="img" aria-label="Anatomy of a designed peptide, N-terminus to C-terminus: a solubility cap of basic or histidine residues, a glycine-serine flexible spacer, and the metal-binding region carrying the Fe(III) motif. Acid is confined to the metal-binding region; caps are never acidic.">
+<text x="0" y="84" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#000000">N-terminus</text>
+<text x="1664" y="84" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#000000">C-terminus</text>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#000000"/></marker></defs>
+<line x1="160" y1="76" x2="1484" y2="76" stroke="#000000" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="376.0" y="118" width="152.0" height="68" fill="#dcdcdc" stroke="#000000" stroke-width="2"/>
+<text x="452.0" y="162.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#000000">HH</text>
+<rect x="528.0" y="118" width="228.0" height="68" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="642.0" y="162.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#000000">SGS</text>
+<rect x="756.0" y="118" width="76.0" height="68" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<text x="794.0" y="162.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#000000">R</text>
+<rect x="832.0" y="118" width="456.0" height="68" fill="#000000" stroke="#000000" stroke-width="2"/>
+<text x="1060.0" y="162.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#ffffff">EETGED</text>
+<line x1="452.0" y1="186" x2="452.0" y2="202" stroke="#000000" stroke-width="1"/>
+<text x="452.0" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#000000">Solubility cap</text>
+<text x="452.0" y="248" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#000000">basic or His ONLY — never acidic</text>
+<text x="452.0" y="274" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#555555">acidic caps: mean −3.61 vs −0.63</text>
+<line x1="642.0" y1="186" x2="642.0" y2="202" stroke="#000000" stroke-width="1"/>
+<text x="642.0" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#000000">Flexible spacer</text>
+<text x="642.0" y="248" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#000000">Gly / Ser, hydrophilic only</text>
+<text x="642.0" y="274" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#555555">lets the chain wrap the ion</text>
+<line x1="794.0" y1="186" x2="794.0" y2="202" stroke="#000000" stroke-width="1"/>
+<text x="794.0" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#000000">Link</text>
+<text x="794.0" y="248" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#000000">single hydrophilic residue</text>
+<line x1="1060.0" y1="186" x2="1060.0" y2="202" stroke="#000000" stroke-width="1"/>
+<text x="1060.0" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#000000">Metal-binding region</text>
+<text x="1060.0" y="248" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#000000">ALL acid lives here, D/E ≤ 6</text>
+<text x="1060.0" y="274" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#555555">His donates without adding acid</text>
+<text x="0" y="348" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#000000">Shown: Aur_21 block structure (HHSGSR·EETGED, measured +10.44 ΔY) — the validated reference every template is built from.</text>
+</svg>
+<p style="font-size:27px;line-height:1.45">The blocks are the report’s; the <b>rules attached to them are the corrections the wash data forced</b>. The decisive one is the cap — Aur_21 is the only <b>SGS</b> peptide with no acidic cap, and the best in the library.</p>
+<p style="position:absolute;left:128px;bottom:64px;font-size:24px">Blocks and rules: Phase-1 report p.9 + corrected rule set · diagram generated from analysis/long_templates.csv</p>
+<aside>Lead with the cap rule. It is the one change that is both mechanically explicable and supported by a clean within-family series, and it is the thing a reviewer will remember. Everything else on this slide is scaffolding for it.</aside>
+</section>
